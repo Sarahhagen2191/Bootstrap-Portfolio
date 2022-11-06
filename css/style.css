@@ -16,3 +16,15 @@ background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center; }
+
+/* Cards */
+.cardContainer {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+  object-fit: contain;
+  }
