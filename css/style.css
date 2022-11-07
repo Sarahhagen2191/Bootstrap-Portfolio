@@ -64,6 +64,12 @@ background-size: cover;
   
 }
 
+a:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #54b3d6;;
+}
+
+
 #contact {
   background-repeat: no-repeat;
   height: 600px;
