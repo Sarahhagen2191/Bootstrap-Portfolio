@@ -1,3 +1,6 @@
+
+
+
 h1, h2, h3 , h4, h5, h6 {
     font-family: 'Lato', sans-serif;
   }
@@ -5,9 +8,9 @@ h1, h2, h3 , h4, h5, h6 {
     font-family: 'Lato', sans-serif;
   }
 
-  .sectionHeading {
-    
-  }
+.subheader {
+  border-bottom: 2rem;
+}
 
 /* Navigation bar */
 
@@ -32,3 +35,17 @@ background-size: cover;
   height: 30vh;
   object-fit: contain;
   }
+
+/* About me */
+#aboutme {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
