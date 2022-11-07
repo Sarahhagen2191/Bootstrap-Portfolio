@@ -1,11 +1,15 @@
-
-
-
 h1, h2, h3 , h4, h5, h6 {
     font-family: 'Lato', sans-serif;
   }
+
+
   p {
     font-family: 'Lato', sans-serif;
+  }
+
+
+  ul { font-family: 'Lato', sans-serif;
+    
   }
 
 .subheader {
@@ -39,13 +43,38 @@ background-size: cover;
 /* About me */
 #aboutme {
   background-size: cover;
+  background-color: #d9e2ef;
   background-repeat: no-repeat;
-  height: 300px
+  height: 400px;
+  display: flex;
+  }
+
+#skills {
+  background-size: cover;
+  background-color: #d9e2ef;
+  height: 550px;
+  background-repeat: no-repeat;
+  display: flex;
 }
 
+
+#skilllist
+{
+  font-size: 20px;
+  
+}
+
+#contact {
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+}
+
+
 .footer {
-  padding: 30px;
+  padding: 25px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
+  background-color: #d9e2ef;
 }
