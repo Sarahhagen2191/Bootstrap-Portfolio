@@ -2,7 +2,6 @@ h1, h2, h3 , h4, h5, h6 {
     font-family: 'Lato', sans-serif;
   }
 
-
   p {
     font-family: 'Lato', sans-serif;
   }
@@ -15,9 +14,6 @@ h1, h2, h3 , h4, h5, h6 {
 .subheader {
   border-bottom: 2rem;
 }
-
-/* Navigation bar */
-
 
 /* Jumbotron  */
 .jumbotron {
@@ -49,6 +45,7 @@ background-size: cover;
   display: flex;
   }
 
+/* Skills sections */  
 #skills {
   background-size: cover;
   background-color: #d9e2ef;
@@ -64,18 +61,20 @@ background-size: cover;
   
 }
 
-a:hover {
-  color: #fff;
-  box-shadow: inset 200px 0 0 0 #54b3d6;;
-}
-
-
+/* contact*/
 #contact {
   background-repeat: no-repeat;
   height: 600px;
   display: flex;
 }
 
+/* hoover/shadow*/
+a:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #54b3d6;;
+}
+
+/* footer*/
 
 .footer {
   padding: 25px;
